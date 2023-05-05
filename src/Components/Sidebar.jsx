@@ -29,7 +29,7 @@ export default function Sidebar() {
             </li>
           </ul>
         </div>
-        <Playlists/>
+        <Playlists />
       </Container>
     </>
   );
@@ -59,15 +59,15 @@ const Container = styled.div`
       flex-direction: column;
       gap: 1rem;
       padding: 1rem;
-    }
 
-    li {
-      display: flex;
-      gap: 1rem;
-      cursor: pointer;
-      transition: 0.3s ease-in-out;
-      &:hover {
-        color: white;
+      li {
+        display: flex;
+        gap: 1rem;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        &:hover {
+          color: white;
+        }
       }
     }
   }
